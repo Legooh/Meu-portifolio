@@ -919,3 +919,247 @@ body._lock {
 .newScreen .property {
   color: #a78bfa;
 }
+
+/* ================================
+   SKILLS SECTION - PROFESSIONAL
+================================ */
+
+.skills-pro {
+  padding: 90px 4%;
+  background:
+    radial-gradient(circle at top left, rgba(0, 238, 255, 0.08), transparent 32%),
+    radial-gradient(circle at bottom right, rgba(0, 238, 255, 0.05), transparent 35%);
+}
+
+.skills-pro__header {
+  max-width: 760px;
+  margin: 0 auto 48px;
+  text-align: center;
+}
+
+.skills-pro__label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 7px 14px;
+  margin-bottom: 16px;
+
+  border: 1px solid rgba(0, 238, 255, 0.25);
+  border-radius: 999px;
+  background: rgba(0, 238, 255, 0.06);
+
+  color: #00eaff;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.skills-pro__title {
+  margin: 0;
+  color: #ffffff;
+  font-size: clamp(32px, 4vw, 46px);
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.skills-pro__title span {
+  color: #00eaff;
+}
+
+.skills-pro__subtitle {
+  margin: 18px auto 0;
+  max-width: 680px;
+
+  color: #aab4c3;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.skills-pro__grid {
+  max-width: 1150px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.stack-card {
+  position: relative;
+  overflow: hidden;
+
+  min-height: 255px;
+  padding: 24px;
+
+  border-radius: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+
+  background: linear-gradient(145deg, rgba(18, 25, 36, 0.98), rgba(12, 18, 28, 0.98));
+
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.22);
+
+  transition:
+    transform 0.25s ease,
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.stack-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+
+  height: 3px;
+  background: linear-gradient(90deg, transparent, #00eaff, transparent);
+
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.stack-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(0, 238, 255, 0.35);
+  box-shadow: 0 22px 55px rgba(0, 238, 255, 0.08);
+}
+
+.stack-card:hover::before {
+  opacity: 1;
+}
+
+.stack-card__head {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+
+  padding-bottom: 18px;
+  margin-bottom: 18px;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.stack-card__icon {
+  flex: 0 0 46px;
+
+  width: 46px;
+  height: 46px;
+
+  display: grid;
+  place-items: center;
+
+  border-radius: 14px;
+  background: rgba(0, 238, 255, 0.1);
+  border: 1px solid rgba(0, 238, 255, 0.12);
+
+  color: #00eaff;
+  font-size: 25px;
+}
+
+.stack-card__title {
+  margin: 0 0 6px;
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.stack-card__text {
+  margin: 0;
+  color: #9ca8b8;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.tech-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tech-tile {
+  min-height: 40px;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+
+  padding: 8px 12px;
+
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  background: rgba(255, 255, 255, 0.045);
+  color: #e8edf5;
+
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.tech-tile:hover {
+  transform: translateY(-2px);
+  background: rgba(0, 238, 255, 0.08);
+  border-color: rgba(0, 238, 255, 0.28);
+}
+
+.tech-tile img {
+  width: 23px;
+  height: 23px;
+  display: block;
+  border-radius: 6px;
+}
+
+.tech-tile i {
+  color: #00eaff;
+  font-size: 22px;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .skills-pro__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Celular */
+@media (max-width: 680px) {
+  .skills-pro {
+    padding: 70px 5%;
+  }
+
+  .skills-pro__header {
+    margin-bottom: 34px;
+  }
+
+  .skills-pro__subtitle {
+    font-size: 15px;
+  }
+
+  .skills-pro__grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .stack-card {
+    min-height: auto;
+    padding: 22px;
+  }
+
+  .stack-card__head {
+    gap: 12px;
+  }
+
+  .stack-card__title {
+    font-size: 20px;
+  }
+
+  .tech-tile {
+    font-size: 13px;
+  }
+}

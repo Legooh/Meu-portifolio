@@ -5,6 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
         <!-- https://boxicons.com/ -->
         <link
             href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
@@ -14,6 +16,11 @@
         <link  href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
             rel="stylesheet">
 
+            <!-- Boxicons (você já deve ter) -->
+<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+<!-- Devicon (ícones das tecnologias) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 
         <link rel="stylesheet" href="./style.css" />
         <title>Portfolio Profissional</title>
@@ -67,7 +74,9 @@
                 </h2>
                 <div class="home__description">
                     <p>
-                         Profissional de tecnologia apaixonado por programação, sempre aprendendo e desenvolvendo novos projetos.
+                         Desenvolvedor Full-Stack com foco em Back-End. Construo APIs em
+      <strong>Go</strong> e <strong>Python</strong>, com <strong>PostgreSQL</strong>,
+      containerização em <strong>Docker</strong> e monitoramento com <strong>Grafana</strong>.
                     </p>
                 </div>
                 <div class="home__social social-media">
@@ -109,13 +118,13 @@
             <span class="control green"></span>
           </div>
           <div class="title">index.html</div>
-          <a class="portfolio-link" href="https://legooh.github.io/meu-portifolio/" rel="noopener"
+          <a class="portfolio-link" href="https://legooh.github.io/meu-portfolio/" rel="noopener"
             >Bem-vindo ao portfólio</a
           >
         </div>
         <pre><code id="code"><span class="keyword">const</span> developer = {
   <span class="property">nome</span>: <span class="string">"Stewart"</span>,
-  <span class="property">idade</span>: <span class="number">25</span>,
+  <span class="property">idade</span>: <span class="number">26</span>,
   <span class="property">objetivo</span>: <span class="string">"Evoluir como desenvolvedor"</span>
 };</code></pre>
       </div>
@@ -130,69 +139,263 @@
                 <h2 class="page-section__title about__title">
                     Sobre <span>mim</span>
                 </h2>
-                <h3 class="about__sub-title">Desenvolvedor Front-end</h3>
+                <h3 class="about__sub-title">Desenvolvedor Full-Stack</h3>
+                
                 <div class="about__description">
                     <p>
-                        Busco minha primeira oportunidade como desenvolvedor. Sou um profissional da área de tecnologia, com perfil curioso, foco em aprendizado contínuo e interesse em inovação. Possuo conhecimento sólido em sistemas ERP, sempre buscando evoluir por meio de novos desafios e projetos.
+                          Tenho perfil curioso e foco em aprendizado contínuo. Gosto de entender o
+                sistema de ponta a ponta: da modelagem do banco de dados até o deploy
+                monitorado. Estou em busca da minha primeira oportunidade como
+                desenvolvedor para transformar esse conhecimento em resultado.
                     </p>
                 </div>
                 <a href="" class="btn">Saiba Mais</a>
             </div>
         </section>
-        <section class="page-section skills" id="skills">
-            <h2 class="page-section__title skills__title">
-                Minhas <span>Habilidades</span>
-            </h2>
-            <div class="skills__grid">
-                <div class="skill-card">
-                    <div class="skill-card__inner">
-                        <i class="bx bx-code skill-card__icon"></i>
-                        <h3 class="skill-card__title">Programação</h3>
-                        <p class="skill-card__list">JavaScript</p>
-                    </div>
+ <section class="page-section skills-pro" id="skills">
+    <div class="skills-pro__header">
+        <span class="skills-pro__label">Stack Técnica</span>
+
+        <h2 class="skills-pro__title">
+            Minhas <span>Habilidades</span>
+        </h2>
+
+        <p class="skills-pro__subtitle">
+            Tecnologias, ferramentas e práticas que utilizo para desenvolver aplicações,
+            criar APIs, trabalhar com dados e preparar ambientes modernos.
+        </p>
+    </div>
+
+    <div class="skills-pro__grid">
+
+        <!-- Front-End -->
+        <article class="stack-card">
+            <div class="stack-card__head">
+                <div class="stack-card__icon">
+                    <i class="bx bx-window-alt"></i>
                 </div>
 
-                         <div class="skill-card">
-                            <div class="skill-card__inner">
-                                <i class="bx bx-window-alt skill-card__icon"></i>
-                                <h3 class="skill-card__title">Front-End</h3>
-                                <p class="skill-card__list">HTML, CSS, React</p>
-                            </div>
-                       </div> 
-
-                        <div class="skill-card">
-                            <div class="skill-card__inner">
-                                <i class="bx bx-server skill-card__icon"></i>
-                                <h3 class="skill-card__title">Back-End</h3>
-                                <p class="skill-card__list">Go, APIs</p>
-                            </div>
-                        </div>
-
-                        <div class="skill-card">
-                            <div class="skill-card__inner">
-                                <i class="bx bx-wrench skill-card__icon"></i>
-                                <h3 class="skill-card__title">Ferramentas</h3>
-                                <p class="skill-card__list">Github, Git, Jira(Kanban,Scrum)</p>
-                            </div>
-                        </div>
-
-                    <div class="skill-card skill-card--db">
-                        <div class="skill-card__inner">
-                            <i class="bx bx-data skill-card__icon"></i>
-                            <h3 class="skill-card__title">Banco de Dados</h3>
-                            <p class="skill-card__list">SQL, MySQL</p>
-                        </div>
-                    </div>
-
-                         <div class="skill-card skill-card--idioma">
-                        <div class="skill-card__inner">
-                            <i class="bx bx-globe skill-card__icon"></i>
-                            <h3 class="skill-card__title">Idiomas</h3>
-                            <p class="skill-card__list">Inglês Técnico</p> 
-                        </div>
-                    </div>
+                <div>
+                    <h3 class="stack-card__title">Front-End</h3>
+                    <p class="stack-card__text">Interfaces web responsivas e modernas.</p>
                 </div>
-                </section>
+            </div>
+
+            <div class="tech-wrap">
+                <span class="tech-tile">
+                    <img src="https://skillicons.dev/icons?i=html&theme=dark" alt="HTML5">
+                    HTML5
+                </span>
+
+                <span class="tech-tile">
+                    <img src="https://skillicons.dev/icons?i=css&theme=dark" alt="CSS3">
+                    CSS3
+                </span>
+
+                <span class="tech-tile">
+                    <img src="https://skillicons.dev/icons?i=js&theme=dark" alt="JavaScript">
+                    JavaScript
+                </span>
+
+                <span class="tech-tile">
+                    <img src="https://skillicons.dev/icons?i=ts&theme=dark" alt="TypeScript">
+                    TypeScript
+                </span>
+            </div>
+        </article>
+
+        <!-- Back-End -->
+        <article class="stack-card">
+            <div class="stack-card__head">
+                <div class="stack-card__icon">
+                    <i class="bx bx-server"></i>
+                </div>
+
+                <div>
+                    <h3 class="stack-card__title">Back-End</h3>
+                    <p class="stack-card__text">APIs, serviços e lógica de aplicação.</p>
+                </div>
+            </div>
+
+            <div class="tech-wrap">
+                <span class="tech-tile">
+                    <img src="https://skillicons.dev/icons?i=go&theme=dark" alt="Go">
+                    Go
+                </span>
+
+                <span class="tech-tile">
+                    <img src="https://skillicons.dev/icons?i=python&theme=dark" alt="Python">
+                    Python
+                </span>
+
+                <span class="tech-tile">
+                    <img src="https://skillicons.dev/icons?i=php&theme=dark" alt="PHP">
+                    PHP
+                </span>
+
+                <span class="tech-tile">
+                    <img src="https://skillicons.dev/icons?i=fastapi&theme=dark" alt="FastAPI">
+                    FastAPI
+                </span>
+
+                <span class="tech-tile">
+                    <i class="bx bx-transfer-alt"></i>
+                    APIs REST
+                </span>
+            </div>
+        </article>
+
+        <!-- Banco de Dados -->
+        <article class="stack-card">
+            <div class="stack-card__head">
+                <div class="stack-card__icon">
+                    <i class="bx bx-data"></i>
+                </div>
+
+                <div>
+                    <h3 class="stack-card__title">Banco de Dados</h3>
+                    <p class="stack-card__text">Consultas, modelagem e bancos relacionais.</p>
+                </div>
+            </div>
+
+            <div class="tech-wrap">
+                <span class="tech-tile">
+                    <img src="https://skillicons.dev/icons?i=postgres&theme=dark" alt="PostgreSQL">
+                    PostgreSQL
+                </span>
+
+                <span class="tech-tile">
+                    <img src="https://skillicons.dev/icons?i=mysql&theme=dark" alt="MySQL">
+                    MySQL
+                </span>
+
+                <span class="tech-tile">
+                    <i class="bx bx-data"></i>
+                    SQL
+                </span>
+            </div>
+        </article>
+
+        <!-- DevOps -->
+        <article class="stack-card">
+            <div class="stack-card__head">
+                <div class="stack-card__icon">
+                    <i class="bx bx-cloud"></i>
+                </div>
+
+                <div>
+                    <h3 class="stack-card__title">DevOps & Cloud</h3>
+                    <p class="stack-card__text">Containers, deploy, automação e monitoramento.</p>
+                </div>
+            </div>
+
+            <div class="tech-wrap">
+                <span class="tech-tile">
+                    <img src="https://skillicons.dev/icons?i=docker&theme=dark" alt="Docker">
+                    Docker
+                </span>
+
+                <span class="tech-tile">
+                    <img src="https://skillicons.dev/icons?i=kubernetes&theme=dark" alt="Kubernetes">
+                    Kubernetes
+                </span>
+
+                <span class="tech-tile">
+                    <img src="https://skillicons.dev/icons?i=ubuntu&theme=dark" alt="Ubuntu">
+                    Linux / Ubuntu
+                </span>
+
+                <span class="tech-tile">
+                    <img src="https://skillicons.dev/icons?i=githubactions&theme=dark" alt="GitHub Actions">
+                    GitHub Actions
+                </span>
+
+                <span class="tech-tile">
+                    <img src="https://skillicons.dev/icons?i=vercel&theme=dark" alt="Vercel">
+                    Vercel
+                </span>
+
+                <span class="tech-tile">
+                    <img src="https://skillicons.dev/icons?i=prometheus&theme=dark" alt="Prometheus">
+                    Prometheus
+                </span>
+
+                <span class="tech-tile">
+                    <img src="https://skillicons.dev/icons?i=grafana&theme=dark" alt="Grafana">
+                    Grafana
+                </span>
+            </div>
+        </article>
+
+        <!-- Ferramentas -->
+        <article class="stack-card">
+            <div class="stack-card__head">
+                <div class="stack-card__icon">
+                    <i class="bx bx-wrench"></i>
+                </div>
+
+                <div>
+                    <h3 class="stack-card__title">Ferramentas</h3>
+                    <p class="stack-card__text">Organização, versionamento e ambiente de desenvolvimento.</p>
+                </div>
+            </div>
+
+            <div class="tech-wrap">
+                <span class="tech-tile">
+                    <img src="https://skillicons.dev/icons?i=git&theme=dark" alt="Git">
+                    Git
+                </span>
+
+                <span class="tech-tile">
+                    <img src="https://skillicons.dev/icons?i=github&theme=dark" alt="GitHub">
+                    GitHub
+                </span>
+
+                <span class="tech-tile">
+                    <img src="https://skillicons.dev/icons?i=vscode&theme=dark" alt="VS Code">
+                    VS Code
+                </span>
+
+                <span class="tech-tile">
+                    <i class="bx bx-task"></i>
+                    Scrum / Kanban
+                </span>
+
+                <span class="tech-tile">
+                    <i class="bx bxl-discord-alt"></i>
+                    Discord
+                </span>
+            </div>
+        </article>
+
+        <!-- Idiomas -->
+        <article class="stack-card">
+            <div class="stack-card__head">
+                <div class="stack-card__icon">
+                    <i class="bx bx-globe"></i>
+                </div>
+
+                <div>
+                    <h3 class="stack-card__title">Idiomas</h3>
+                    <p class="stack-card__text">Comunicação e leitura técnica.</p>
+                </div>
+            </div>
+
+            <div class="tech-wrap">
+                <span class="tech-tile">
+                    <i class="bx bx-flag"></i>
+                    Português (Nativo)
+                </span>
+
+                <span class="tech-tile">
+                    <i class="bx bx-book-open"></i>
+                    Inglês (Técnico)
+                </span>
+            </div>
+        </article>
+
+    </div>
+</section>
 
         <section class="page-section portfolio" id="portfolio">
             <h2 class="page-section__title portfolio__title">

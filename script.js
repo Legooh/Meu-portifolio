@@ -6,10 +6,7 @@ if (navLinks.length > 0) {
 
   function onMenuLinkClick(event) {
     const menuLink = event.target;
-    if (
-      menuLink.dataset.goto &&
-      document.getElementById(menuLink.dataset.goto)
-    ) {
+    if (menuLink.dataset.goto && document.getElementById(menuLink.dataset.goto)) {
       const gotoBlock = document.getElementById(menuLink.dataset.goto);
       const gotoBlockValue =
         gotoBlock.getBoundingClientRect().top +
@@ -83,23 +80,21 @@ if (iconMenu) {
 }
 
 const typed = new Typed(".multiple-text", {
-  strings: ["Desenvolvedor Front-end", "Analista de Sistemas"],
+  strings: ["Desenvolvedor Full-Stack"],
   typeSpeed: 70,
   backSpeed: 40,
   backDelay: 1000,
   loop: true,
 });
 
-document
-  .querySelector('input[name="phone"]')
-  .addEventListener("input", function (e) {
-    let value = e.target.value.replace(/\D/g, "");
-    if (value.length <= 11) {
-      value = value.replace(/(\d{2})(\d{5})(\d{4})/, "($1) $2-$3");
-      value = value.replace(/(\d{2})(\d{4})(\d{4})/, "($1) $2-$3");
-      e.target.value = value;
-    }
-  });
+document.querySelector('input[name="phone"]').addEventListener("input", function (e) {
+  let value = e.target.value.replace(/\D/g, "");
+  if (value.length <= 11) {
+    value = value.replace(/(\d{2})(\d{5})(\d{4})/, "($1) $2-$3");
+    value = value.replace(/(\d{2})(\d{4})(\d{4})/, "($1) $2-$3");
+    e.target.value = value;
+  }
+});
 
 // Form submission with redirect to thank-you.html
 const contactForm = document.querySelector(".contact__form");
