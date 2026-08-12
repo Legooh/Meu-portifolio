@@ -13,17 +13,6 @@
   <img src="https://img.shields.io/badge/Licen%C3%A7a-MIT-8b96a8?style=for-the-badge" alt="Licença">
 </p>
 
-## 🔗 Demonstração
-
-<p align="center">
-  <a href="https://legooh.github.io/meu-portfolio/">
-    <img src="assets/img/preview.png" alt="Preview do portfólio" width="850">
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://legooh.github.io/meu-portfolio/">legooh.github.io/meu-portfolio</a>
-</p>
 
 ---
 
@@ -112,10 +101,10 @@ O layout se adapta a partir dos seguintes pontos de quebra:
 Fique à vontade para entrar em contato, estou aberto a conversas, feedbacks e novas oportunidades.
 
 <p>
-  <a href="https://www.linkedin.com/in/SEU-USUARIO/">
+  <a href="https://www.linkedin.com/in/stewart-nunes/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
   </a>
-  <a href="mailto:SEU-EMAIL@email.com">
+  <a href="mailto:stewartn.dev@email.com">
     <img src="https://img.shields.io/badge/E--mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
   </a>
   <a href="https://github.com/legooh">
