@@ -1,8 +1,8 @@
-<h1 align="center">💼 Portfólio — Stewart Nunes</h1>
+<h1 align="center">💼 Portfólio - Stewart Nunes</h1>
 
 <p align="center">
-  Portfólio pessoal desenvolvido para apresentar minha trajetória,<br>
-  habilidades técnicas e projetos na área de desenvolvimento de software.
+  Portfólio pessoal criado para apresentar minha trajetória,<br>
+  habilidades técnicas e projetos na área de tecnologia.
 </p>
 
 <p align="center">
@@ -13,33 +13,48 @@
   <img src="https://img.shields.io/badge/Licen%C3%A7a-MIT-8b96a8?style=for-the-badge" alt="Licença">
 </p>
 
----
-
 ## 🔗 Demonstração
 
-**Acesse:** [legooh.github.io/meu-portfolio](https://legooh.github.io/meu-portfolio/)
+<p align="center">
+  <a href="https://legooh.github.io/meu-portfolio/">
+    <img src="assets/img/preview.png" alt="Preview do portfólio" width="850">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://legooh.github.io/meu-portfolio/">legooh.github.io/meu-portfolio</a>
+</p>
 
 ---
 
 ## 📖 Sobre o Projeto
 
-Site desenvolvido do zero com foco em **design limpo**, **responsividade** e **performance**.
-O objetivo é servir como cartão de visitas profissional, reunindo em um só lugar minhas
-informações, stack de tecnologias e projetos desenvolvidos.
+Site construído do zero com foco em design limpo, responsividade e boa performance.
+A ideia é que ele funcione como um cartão de visitas, reunindo em um só lugar meu perfil,
+as tecnologias que venho estudando e os trabalhos que já realizei.
 
----
+Este é um projeto de estudo, então ele segue em constante evolução conforme eu aprendo
+coisas novas.
+
+## 🧭 Seções do Site
+
+| Seção | O que traz |
+|---|---|
+| **Home** | Apresentação com efeito de digitação e acesso rápido ao currículo |
+| **Sobre** | Minha trajetória, vivência em sistemas ERP e disponibilidade |
+| **Habilidades** | Stack organizada por categoria, com ícones de cada tecnologia |
+| **Projetos** | Trabalhos desenvolvidos, com descrição e tecnologias usadas |
+| **Contato** | Links diretos para LinkedIn, GitHub e e-mail |
 
 ## ✨ Funcionalidades
 
-- 🎨 **Tema dark** com identidade visual própria
-- ⌨️ **Efeito de digitação** dinâmico na apresentação
-- 📱 **Layout 100% responsivo** (mobile, tablet e desktop)
-- 🧩 **Seção de habilidades** organizada por categoria com ícones das tecnologias
-- 🚀 **Navegação suave** entre seções
-- 📄 **Download do currículo** em PDF
-- 🔗 Links diretos para **GitHub, LinkedIn e e-mail**
-
----
+- 🎨 Tema dark com identidade visual própria
+- ⌨️ Efeito de digitação na apresentação
+- 📱 Layout responsivo para mobile, tablet e desktop
+- 🧩 Habilidades separadas por área, facilitando a leitura
+- 🚀 Navegação suave entre as seções
+- 📄 Download do currículo em PDF
+- ♿ HTML semântico e textos alternativos nas imagens
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -57,68 +72,44 @@ informações, stack de tecnologias e projetos desenvolvidos.
 | **HTML5** | Estrutura semântica das páginas |
 | **CSS3** | Estilização, Grid, Flexbox e responsividade |
 | **JavaScript** | Interatividade e efeito de digitação |
-| **Boxicons / Devicon** | Ícones de interface e tecnologias |
-| **GitHub Pages** | Hospedagem |
+| **Boxicons / Devicon** | Ícones de interface e das tecnologias |
+| **GitHub Pages** | Hospedagem do site |
+
+Tudo foi feito sem frameworks, usando apenas HTML, CSS e JavaScript puro.
+
+## 📱 Responsividade
+
+O layout se adapta a partir dos seguintes pontos de quebra:
+
+| Dispositivo | Largura |
+|---|---|
+| Mobile | até 600px |
+| Tablet | 601px a 900px |
+| Desktop | acima de 900px |
 
 ---
 
-## 📁 Estrutura de Pastas
+## 🧠 O que aprendi por aqui
 
-```bash
-meu-portfolio/
-├── assets/
-│   ├── img/            # Imagens e ilustrações
-│   └── curriculo.pdf   # Currículo para download
-├── css/
-│   └── style.css       # Estilos do projeto
-├── js/
-│   └── script.js       # Scripts e animações
-├── index.html          # Página principal
-└── README.md
-```
-
----
-
-## 🚀 Como Executar Localmente
-
-```bash
-# 1. Clone o repositório
-git clone https://github.com/legooh/meu-portfolio.git
-
-# 2. Acesse a pasta
-cd meu-portfolio
-
-# 3. Abra no navegador
-# Basta abrir o arquivo index.html
-```
-
-> 💡 **Dica:** utilize a extensão **Live Server** do VS Code para recarregamento automático.
-
----
-
-## 🧠 Aprendizados
-
-Durante o desenvolvimento, pratiquei e aprofundei conhecimentos em:
-
-- Metodologia **BEM** para organização de classes CSS
-- **CSS Grid** e **Flexbox** aplicados a layouts responsivos
-- Uso de `clamp()` para tipografia fluida
-- Manipulação de **DOM** com JavaScript puro
-- Deploy contínuo com **GitHub Pages**
-
----
+- Metodologia BEM para organizar as classes do CSS
+- CSS Grid e Flexbox aplicados em layouts responsivos
+- Uso de `clamp()` para tipografia fluida, sem precisar de tantas media queries
+- Manipulação de DOM com JavaScript puro
+- Versionamento com Git e deploy contínuo pelo GitHub Pages
 
 ## 🗺️ Próximos Passos
 
 - [ ] Seção de projetos com cards detalhados
 - [ ] Formulário de contato funcional
-- [ ] Modo claro / escuro
+- [ ] Modo claro e escuro
 - [ ] Versão em inglês
-- [ ] Animações on-scroll
+- [ ] Animações ao rolar a página
 
 ---
 
 ## 📬 Contato
+
+Fique à vontade para entrar em contato, estou aberto a conversas, feedbacks e novas oportunidades.
 
 <p>
   <a href="https://www.linkedin.com/in/SEU-USUARIO/">
@@ -131,8 +122,6 @@ Durante o desenvolvimento, pratiquei e aprofundei conhecimentos em:
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
   </a>
 </p>
-
----
 
 <p align="center">
   Feito com 💙 por <strong>Stewart Nunes</strong>
