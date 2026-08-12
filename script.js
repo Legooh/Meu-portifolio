@@ -80,7 +80,7 @@ if (iconMenu) {
 }
 
 const typed = new Typed(".multiple-text", {
-  strings: ["Desenvolvedor Full-Stack"],
+  strings: ["Desenvolvedor Full-Stack", "Analista de Sistemas"],
   typeSpeed: 70,
   backSpeed: 40,
   backDelay: 1000,
